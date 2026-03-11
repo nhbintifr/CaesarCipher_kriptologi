@@ -9,7 +9,7 @@ Implementasi **Caesar Cipher** dalam Python — salah satu teknik kriptografi te
 Caesar Cipher bekerja dengan **menggeser** setiap huruf dalam alfabet sejumlah posisi tertentu (disebut **shift** atau **kunci**).
 
 ```
-Contoh shift = 3:
+Contoh shift = 10:
   Plaintext : A B C D E F ... X Y Z
   Ciphertext: K L M N O P ... A B C
 
