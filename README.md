@@ -11,7 +11,7 @@ Caesar Cipher bekerja dengan **menggeser** setiap huruf dalam alfabet sejumlah p
 ```
 Contoh shift = 3:
   Plaintext : A B C D E F ... X Y Z
-  Ciphertext: D E F G H I ... A B C
+  Ciphertext: K L M N O P ... A B C
 
 Pesan    : Nurul Hidayah
 Terenkripsi: Xebev Rsnkikr
