@@ -13,8 +13,8 @@ Contoh shift = 3:
   Plaintext : A B C D E F ... X Y Z
   Ciphertext: D E F G H I ... A B C
 
-Pesan    : HELLO WORLD
-Terenkripsi: KHOOR ZRUOG
+Pesan    : Nurul Hidayah
+Terenkripsi: Xebev Rsnkikr
 ```
 
 ---
@@ -56,16 +56,16 @@ python3 caesar_cipher.py
 Mengenkripsi teks dengan menggeser setiap huruf sebanyak `shift` posisi ke depan.
 
 ```python
-enkripsi("Hello World", 3)
-# Output: "Khoor Zruog"
+enkripsi("Nurul Hidayah", 10)
+# Output: "Xebev Rsnkikr"
 ```
 
 ### `dekripsi(teks, shift)`
 Mendekripsi ciphertext dengan menggeser huruf ke arah sebaliknya.
 
 ```python
-dekripsi("Khoor Zruog", 3)
-# Output: "Hello World"
+dekripsi("Xebev Rsnkikr", 10)
+# Output: "Nurul Hidayah"
 ```
 
 ### `brute_force(ciphertext)`
