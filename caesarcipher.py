@@ -104,53 +104,6 @@ def demo():
     print("║          CAESAR CIPHER — Demo Interaktif             ║")
     print("╚══════════════════════════════════════════════════════╝")
 
-    # ── Contoh 1: Enkripsi & Dekripsi Dasar ──────────────────
-    print("\n📌 CONTOH 1 — Enkripsi & Dekripsi Dasar")
-    print("─" * 45)
-
-    plaintext = "Hello World"
-    shift = 13                                 # ROT13 adalah shift=13
-
-    ciphertext = enkripsi(plaintext, shift)
-    hasil_dekripsi = dekripsi(ciphertext, shift)
-
-    print(f"  Plaintext  : {plaintext}")
-    print(f"  Shift      : {shift}")
-    print(f"  Ciphertext : {ciphertext}")
-    print(f"  Dekripsi   : {hasil_dekripsi}")
-
-    # ── Contoh 2: Teks dengan angka & simbol ─────────────────
-    print("\n📌 CONTOH 2 — Teks Campuran (angka & simbol diabaikan)")
-    print("─" * 45)
-
-    plaintext2 = "Belajar Python 101! Seru banget :)"
-    shift2 = 7
-
-    cipher2 = enkripsi(plaintext2, shift2)
-    dekripsi2 = dekripsi(cipher2, shift2)
-
-    print(f"  Plaintext  : {plaintext2}")
-    print(f"  Shift      : {shift2}")
-    print(f"  Ciphertext : {cipher2}")
-    print(f"  Dekripsi   : {dekripsi2}")
-
-    # ── Tabel Alfabet ─────────────────────────────────────────
-    tampilkan_tabel_alfabet(shift2)
-
-    # ── Contoh 3: Brute Force ─────────────────────────────────
-    print("\n📌 CONTOH 3 — Brute Force Attack")
-    print("─" * 45)
-    pesan_rahasia = "Wkh txlfn eurzq ira"   # shift=3 dari "The quick brown fox"
-    print(f"  Ciphertext misterius: \"{pesan_rahasia}\"")
-    print("  Kita tidak tahu kuncinya — coba semua kemungkinan!")
-
-    brute_force(pesan_rahasia)
-
-    # ── Mode Interaktif ───────────────────────────────────────
-    print("\n" + "═" * 55)
-    print("  MODE INTERAKTIF — Coba Sendiri!")
-    print("═" * 55)
-
     while True:
         print("\n  Pilihan:")
         print("  [1] Enkripsi teks")
